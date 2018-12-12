@@ -1,0 +1,61 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Book
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+    <ion-slides pager>      
+
+        <ion-slide class="mySlide" >  
+
+            <ion-card>
+
+                <h1 class="oS">Min mor er gravid</h1>
+
+                <img class="myImg" (click)="changeImage()" src="../../assets/img/dawn.jpg"/>
+                <ion-card-content>
+                  <ion-card-title>
+                    Nine Inch Nails Live
+                    </ion-card-title>
+                  <p>
+                    The most popular industrial group ever, and largely
+                    responsible for bringing the music to a mass audience.
+                  </p>
+                </ion-card-content>
+              </ion-card>
+        </ion-slide>
+      
+        <ion-slide class="mySlide" >
+            <ion-slide class="mySlide" >
+                <ion-card>
+
+                    <h1 class="oS">Min mor er gravid</h1>
+
+                    <img class="myImg" src="../../assets/img/water.jpg"/>
+                    <ion-card-content>
+                      <ion-card-title>
+                        Nine Inch Nails Live
+                        </ion-card-title>
+                      <p>
+                        The most popular industrial group ever, and largely
+                        responsible for bringing the music to a mass audience.
+                      </p>
+                    </ion-card-content>
+                  </ion-card>
+            </ion-slide>
+        </ion-slide>
+      
+        <ion-slide class="mySlide" >
+          <h2>Slide 3</h2>
+        </ion-slide>
+      
+      </ion-slides>
+
+</ion-content>

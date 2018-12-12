@@ -1,0 +1,8 @@
+{
+  "name": "babeme",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "ae3a201d"
+}
